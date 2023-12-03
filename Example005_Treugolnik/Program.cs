@@ -22,16 +22,19 @@ while(count < 10000)
     {
         x = (x+xa)/2;
         y = (y+ya)/2;
+        //Console.Write("1 if");
     }
     if(what == 1)
     {
         x = (x+xb)/2;
         y = (y+yb)/2;
+        //Console.Write("2 if");
     }
     if(what == 2)
     {
         x = (x+xc)/2;
         y = (y+yc)/2;
+        //Console.Write("3 if");
     }
     Console.SetCursorPosition(x, y);
     Console.WriteLine("+");
